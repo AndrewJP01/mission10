@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|c:\\users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|solutionrelative:mission10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|c:\\users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\controllers\\bowlingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|solutionrelative:mission10\\controllers\\bowlingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|c:\\users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA314291-DE17-4ABF-9233-727D5D8A8F16}|mission10\\mission10.csproj|solutionrelative:mission10\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -18,6 +31,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BowlingController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Controllers\\BowlingController.cs",
+              "RelativeDocumentMoniker": "mission10\\Controllers\\BowlingController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Controllers\\BowlingController.cs",
+              "RelativeToolTip": "mission10\\Controllers\\BowlingController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAqwBYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:12:15.217Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Program.cs",
+              "RelativeDocumentMoniker": "mission10\\Program.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Program.cs",
+              "RelativeToolTip": "mission10\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:20:53.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "mission10\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\andre\\source\\repos\\mission10\\backend\\mission10\\mission10\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "mission10\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T04:08:01.484Z",
+              "EditorCaption": ""
             }
           ]
         }

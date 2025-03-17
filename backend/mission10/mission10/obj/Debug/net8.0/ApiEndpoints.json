@@ -1,5 +1,26 @@
 [
   {
+    "ContainingType": "mission10.Controllers.BowlingController",
+    "Method": "Get",
+    "RelativePath": "api/Bowling",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[mission10.Models.Bowler, mission10, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetBowlingInfo"
+  },
+  {
     "ContainingType": "mission10.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
