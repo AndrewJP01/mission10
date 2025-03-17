@@ -5,6 +5,7 @@ function BowlerList() {
   const [bowlers, setbowlers] = useState<bowler[]>([]);
 
   useEffect(() => {
+    // makes sure we dont call the server over and over until we crash
     const fetchBowler = async () => {
       const response = await fetch('https://localhost:5069/api/Bowling');
       const data = await response.json();
@@ -14,6 +15,7 @@ function BowlerList() {
   }, []);
 
   return (
+    // returns our nice little table
     <>
       <h2>Bowler List</h2>
       <table>
@@ -32,14 +34,14 @@ function BowlerList() {
           {bowlers.map((bowler) => (
             <tr key={bowler.bowlerId}>
               <td>
-                {`${bowler.bowlerFirstName} ${bowler.bowlerMiddleInit || ''} ${bowler.bowlerLastName}`.trim()}
+                {`${bowler.firstName} ${bowler.middleInitial || ''} ${bowler.lastName}`.trim()}
               </td>
-              <td>{bowler.teamId}</td>
-              <td>{bowler.bowlerAddress}</td>
-              <td>{bowler.bowlerCity}</td>
-              <td>{bowler.bowlerState}</td>
-              <td>{bowler.bowlerZip}</td>
-              <td>{bowler.bowlerPhoneNumber}</td>
+              <td>{bowler.teamName}</td>
+              <td>{bowler.address}</td>
+              <td>{bowler.city}</td>
+              <td>{bowler.state}</td>
+              <td>{bowler.zip}</td>
+              <td>{bowler.phoneNumber}</td>
             </tr>
           ))}
         </tbody>
